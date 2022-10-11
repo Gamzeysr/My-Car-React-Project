@@ -4,7 +4,7 @@ import data from "../helper/data";
 const Homepage = () => {
     return (
         <div>
-            <h1>My Classic Car Image Album</h1>
+            <h1>Welcome To The Land Of Classic Cars :)) </h1>
             <div className="pictures">
                 {data.map((item) => (
                     <Picture car={item} />
